@@ -70,6 +70,6 @@ pygmentsStyle = "pygments"
     url = "/known-limitations/"
     weight = 3
   [[menu.nav]]
-    name = "RSS"
-    url = "/index.xml"
+    name = "Contact"
+    url = "/contact/"
     weight = 10
