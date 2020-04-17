@@ -66,6 +66,10 @@ pygmentsStyle = "pygments"
     url = "/about/"
     weight = 2
   [[menu.nav]]
+    name = "Limitations"
+    url = "/known-limitations/"
+    weight = 3
+  [[menu.nav]]
     name = "RSS"
     url = "/index.xml"
-    weight = 3
+    weight = 10
