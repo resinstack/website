@@ -66,9 +66,13 @@ pygmentsStyle = "pygments"
     url = "/about/"
     weight = 2
   [[menu.nav]]
+    name = "FAQ"
+    url = "/faq/"
+    weight = 3
+  [[menu.nav]]
     name = "Limitations"
     url = "/known-limitations/"
-    weight = 3
+    weight = 4
   [[menu.nav]]
     name = "Contact"
     url = "/contact/"
