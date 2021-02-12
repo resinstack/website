@@ -26,12 +26,6 @@ compute fleet.  Tasks that rely on state or other binaries being
 present on the host probably aren't a good fit for ResinStack machines
 right now.
 
-While it is possible to run a cluster using nothing but ResinStack
-images, there are still some rough edges around server upgrades.
-Unless you consider yourself and your team power users of the
-HashiStack, it is not recommended to run your servers on the
-ResinStack yet.
-
 ## Is it secure?
 
 Like all software, you need to consider what your risk tolerances are.
@@ -64,9 +58,6 @@ need to question other things those folks have been telling you.
 
 ## Doesn't using pre-built policies make it easier for me to get hacked?
 
-Welcome to 2020, despite elevated levels of strange, security through
-obscurity is still not a viable strategy.
-
 The policies that are provided in the reference Nomad, Consul, and
 Vault Terraform modules are based on applying the principal of least
 bits to getting the HashiStack to run.  You can create equivalent
@@ -97,19 +88,11 @@ accomplish your goals.
 
 ## Why can't I download a ready to use system image?
 
-Out of an abundance of caution the ResinStack project does not provide
-pre-made images.  The ResinStack uses a custom compiled version of
-Nomad which disables the NVIDIA driver.  This driver is incompatible
-with the ResinStack and must be disabled at compile time to avoid any
-side effects.
-
-Unfortunately, distributing this non-default version of Nomad would
-violate the MPL license that Nomad is released under.  Fortunately a
-docker file is provided to allow you to easily and quickly build the
-requisite version of Nomad.
-
-If you're with HashiCorp and would like to provide authorization to
-redistribute these compiled artifacts, [contact us](/contact/).
+The ResinStack is based on the ideas of immutable infrastructure and
+minimalism.  Because every organization is different, its not possible
+to solve the needs of every organization while remaining minimal.
+Instead, the images can be easily built using the tooling provided by
+the ResinStack project.
 
 ## Is this only for cloud environments?
 
@@ -127,4 +110,5 @@ auto-configuration of the system images to work.
 
 ## I have a question that wasn't answered here!
 
-That's great!  Questions further the project
+That's great!  Questions further the project, and you can ask yours
+via any means listed on the [contact page](/contact/).
