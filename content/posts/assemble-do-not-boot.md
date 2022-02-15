@@ -116,4 +116,3 @@ ResinStack uses linuxkit, and how it is different from traditional
 tools like packer.  Feel free to reach out via any of the modes of
 contact on the [contacts](/contact/) page if you have any questions or
 feedback.
-
